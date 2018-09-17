@@ -280,6 +280,7 @@ public final class Builder {
 
         style = new NotificationCompat.BigTextStyle(builder)
                 .setSummaryText(options.getSummary())
+                .setBigContentTitle(options.getTitle())
                 .bigText(options.getText());
 
         builder.setStyle(style);
